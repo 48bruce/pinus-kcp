@@ -1,5 +1,5 @@
-import { pinus } from 'pinus';
-import { Package } from 'pinus-protocol';
+import { pinus } from 'pinusmod';
+import { Package } from 'pinusmod-protocol';
 import { ISocket } from '../interfaces/ISocket';
 
 let CODE_OK = 200;

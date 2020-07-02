@@ -1,5 +1,5 @@
-import { Package } from 'pinus-protocol';
-import { getLogger } from 'pinus-logger';
+import { Package } from 'pinusmod-protocol';
+import { getLogger } from 'pinusmod-logger';
 import { ISocket } from '../interfaces/ISocket';
 import * as path from 'path';
 let logger = getLogger('pinus', path.basename(__filename));

@@ -1,32 +1,35 @@
 {
-  "name": "pinus-kcp",
-  "version": "1.0.5",
-  "description": "用于 pinus (ts 版 pomelo)，提供一个 kcp 的 connector",
-  "main": "./dist/index.js",
-  "scripts": {
-    "build": "tsc"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bruce48x/pinus-kcp.git"
-  },
-  "keywords": [
-    "pinus",
-    "pomelo",
-    "kcp"
-  ],
-  "author": "bruce48x",
-  "license": "MIT",
-  "dependencies": {
-    "@types/node": "^8.10.51",
-    "node-kcp-x": "^0.2",
-    "pinus": "^1.4.2",
-    "pinus-protobuf": "^1.4.2",
-    "pinus-protocol": "^1.4.2",
-    "typescript": "^2.9.2"
-  },
-  "bugs": {
-    "url": "https://github.com/bruce48x/pinus-kcp/issues"
-  },
-  "homepage": "https://github.com/bruce48x/pinus-kcp#readme"
+    "name": "pinusmod-kcp",
+    "version": "1.0.6",
+    "description": "用于 pinus (ts 版 pomelo)，提供一个 kcp 的 connector",
+    "main": "./dist/index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bruce48x/pinus-kcp.git"
+    },
+    "keywords": [
+        "pinus",
+        "pomelo",
+        "kcp"
+    ],
+    "author": "bruce48x",
+    "license": "MIT",
+    "dependencies": {
+        "@types/node": "^8.10.51",
+        "node-kcp-x": "^0.2",
+        "pinusmod": "^1.4.17",
+        "pinusmod-protobuf": "^1.4.2",
+        "pinusmod-protocol": "^1.4.2",
+        "typescript": "^2.9.2"
+    },
+    "devDependencies": {
+        "@types/mqtt-connection": "git+https://github.com/node-pinus/types-mqtt-connection.git"
+    },
+    "bugs": {
+        "url": "https://github.com/bruce48x/pinus-kcp/issues"
+    },
+    "homepage": "https://github.com/bruce48x/pinus-kcp#readme"
 }

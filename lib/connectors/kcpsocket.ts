@@ -17,7 +17,7 @@
 import { EventEmitter } from 'events';
 import * as kcp from 'node-kcp-x';
 import * as pinuscoder from './pinuscoder';
-import * as protocol from 'pinus-protocol';
+import * as protocol from 'pinusmod-protocol';
 const Package = protocol.Package;
 import * as dgram from 'dgram';
 import { ISocket } from '../interfaces/ISocket';

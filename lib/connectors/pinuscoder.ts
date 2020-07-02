@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-import { pinus } from 'pinus';
+import { pinus } from 'pinusmod';
 import handler from '../common/handler';
 import * as Kick from '../commands/kick';
 import { HandshakeCommand } from '../commands/handshake';
 import { HeartbeatCommand } from '../commands/heartbeat';
 import * as coder from '../common/coder';
-import { Protocol, Package, Message } from 'pinus-protocol';
-import { Protobuf } from 'pinus-protobuf';
+import { Protocol, Package, Message } from 'pinusmod-protocol';
+import { Protobuf } from 'pinusmod-protobuf';
 
 import { IConnector } from '../interfaces/IConnector';
 import { ISocket } from '../interfaces/ISocket';

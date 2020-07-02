@@ -18,9 +18,8 @@ import * as dgram from 'dgram';
 import { EventEmitter } from 'events';
 import { KcpSocket } from './kcpsocket';
 import * as pinuscoder from './pinuscoder';
-import { IConnector, DictionaryComponent, ProtobufComponent, IComponent } from 'pinus';
+import { IConnector, DictionaryComponent, ProtobufComponent, IComponent, pinus } from 'pinusmod';
 import * as coder from '../common/coder';
-import { pinus } from 'pinus';
 
 let curId = 1;
 
